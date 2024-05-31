@@ -1,0 +1,140 @@
+#head{
+    list-style: none;
+}
+img{
+  display: inline;
+  border-radius: 30px;
+  height: 300px;
+  animation: wiggle;
+  animation-duration: 2s;
+}
+
+.porfile-element{
+  display: inline-block;
+}
+
+.header{
+  padding: 2%;
+  background-image: url('../assets/israel-2560-x-1407-background-ok9qymzguchpk26p.jpg');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.edu{
+  color: black;
+  display: inline-flex;
+  padding: 5% ;
+}
+
+#about{
+    background-color: purple;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+
+}
+
+#contact{
+    background-color: skyblue;
+    color: black;
+    padding: 2%;
+    align-items: center;
+    align-content: justify;
+
+    
+}
+.address{
+    display: inline-block;
+   
+}
+
+li{
+    display: inline;
+    padding: 2%;;
+}
+
+#index{
+    color: white;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 79% 59%) 0%,
+        hsl(285deg 66% 51%) 11%,
+        hsl(312deg 81% 49%) 22%,
+        hsl(327deg 100% 56%) 33%,
+        hsl(341deg 100% 64%) 44%,
+        hsl(2deg 100% 70%) 56%,
+        hsl(21deg 100% 67%) 67%,
+        hsl(34deg 100% 65%) 78%,
+        hsl(44deg 100% 67%) 89%,
+        hsl(55deg 95% 71%) 100%
+      );;
+}
+
+
+#role{
+    animation-name: myanimation;
+    animation-duration: 2s;
+}
+
+@keyframes myanimation {
+    from{
+        opacity: 0;
+        transform: translate3d(80%,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+  
+}
+
+/* 
+wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+ */

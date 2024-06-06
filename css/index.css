@@ -6,6 +6,7 @@ img{
   border-radius: 30px;
   /* height: 1%; */
   width: 30%;
+  height: 40%;
   animation: wiggle;
   animation-duration: 2s;
 }

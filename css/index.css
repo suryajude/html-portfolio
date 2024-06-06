@@ -4,7 +4,8 @@
 img{
   display: inline;
   border-radius: 30px;
-  height: 300px;
+  /* height: 1%; */
+  width: 40%;
   animation: wiggle;
   animation-duration: 2s;
 }

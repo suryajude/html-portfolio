@@ -5,7 +5,7 @@ img{
   display: inline;
   border-radius: 30px;
   /* height: 1%; */
-  width: 4%;
+  width: 30%;
   animation: wiggle;
   animation-duration: 2s;
 }
